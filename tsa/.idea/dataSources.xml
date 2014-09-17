@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2829815117">
+    <data-source source="LOCAL" name="Rails tsa: development" uuid="4c644069-6e5a-40ea-bdba-9dfbfe3c6a93">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\0093197\Documents\GitHub\tsa\tsa\db\development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
