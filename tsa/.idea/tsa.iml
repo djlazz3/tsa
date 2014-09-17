@@ -106,28 +106,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.1.5, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.1.5, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionview (v4.1.5, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.1.5, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.1.5, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.1.5, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="arel (v5.0.1.20140414130214, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.2, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.11, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.25.1, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.4.1, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.5, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="railties (v4.1.5, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.4, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.15, ruby-2.0.0-p481) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, ruby-2.0.0-p481) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
