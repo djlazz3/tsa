@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
   get 'welcome/index'
-
-  get 'home/index'
-
+  get 'dangers/index'
+  get 'causes/index'
+  get 'prevention/index'
+  get 'projects/index'
+  get 'impact/index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
