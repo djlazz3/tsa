@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'causes/index'
+
   get 'welcome/index'
   get 'dangers/index'
   get 'causes/index'
