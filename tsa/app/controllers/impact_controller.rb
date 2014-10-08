@@ -1,4 +1,4 @@
 class ImpactController < ApplicationController
-  def idex
+  def index
   end
 end

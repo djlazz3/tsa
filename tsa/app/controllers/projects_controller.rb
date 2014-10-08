@@ -1,4 +1,4 @@
 class ProjectsController < ApplicationController
-  def idex
+  def index
   end
 end

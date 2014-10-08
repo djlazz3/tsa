@@ -1,4 +1,4 @@
 class DangersController < ApplicationController
-  def idex
+  def index
   end
 end

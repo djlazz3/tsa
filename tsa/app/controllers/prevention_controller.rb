@@ -1,4 +1,4 @@
 class PreventionController < ApplicationController
-  def idex
+  def index
   end
 end
