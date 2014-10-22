@@ -16,6 +16,8 @@
 @font-face {
         font-family: "pcb";
         src: url('/assets/PCB.ttf') format("truetype");
+		font-wheight: normal;
+		font-style: normal;
     }
 .topbar{
 font-family: 'pcb';
