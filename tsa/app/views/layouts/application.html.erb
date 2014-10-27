@@ -29,20 +29,38 @@ p.ex1 {
 <div class="span7 text-left">
 <div class="container">
 
-<div class="container">
-<div class="span7 text-center">
-
-<a href="/welcome/index"><button class="btn btn-success btn-xl"><h4>Home</h4></button></a>
-<a href="/dangers/index"><button class="btn btn-success btn-xl"><h4>Dangers</h4></button></a>
-<a href="/causes/index"><button class="btn btn-success btn-xl"><h4>Causes</h4></button></a>
-<a href="/prevention/index"><button class="btn btn-success btn-xl"><h4>Prevention</h4></button></a>
-<a href="/projects/index"><button class="btn btn-success btn-xl"><h4>Projects</h4></button></a>
-<a href="/impact/index"><button class="btn btn-success btn-xl"><h4>Impact</h4></button></a>
-</div>
-</div>
-
-</div>
-</div>
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/welcome/index" class="navbar-brand">E-Waste</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="/dangers/index">Dangers</a>
+        </li>
+        <li>
+          <a href="/causes/index">Causes</a>
+        </li>
+        <li>
+          <a href="/prevention/index">Prevention</a>
+        </li>
+        <li>
+          <a href="/projects/index">Projects</a>
+        </li>
+        <li>
+          <a href="/impact/index">Impact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
 <%= yield %>
 
