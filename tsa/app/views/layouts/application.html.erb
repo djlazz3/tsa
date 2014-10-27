@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="compact">
   <title>E-Waste</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <!-- Latest compiled and minified CSS -->
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
   <link rel="shortcut icon" href="http://icons.iconarchive.com/icons/robinweatherall/recycling/16/recycle-2-icon.png">
-  
-<style>
-p.ex1 {
-    margin-right: 26cm;
-	font-size: 15pt;
-}
-</style>
-  
+
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="/app/assets/stylesheets/application.css" title="compact">
 </head>
 <body>
 
 <br>
 
-<div class="span7 text-left">
+
 <div class="container">
 
 <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
@@ -60,6 +54,7 @@ p.ex1 {
       </ul>
     </nav>
   </div>
+
 </header>
 
 <%= yield %>
