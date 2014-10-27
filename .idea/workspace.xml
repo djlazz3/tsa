@@ -36,8 +36,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tsa/app/views/welcome/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20685841" vertical-offset="0" max-vertical-offset="904">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.13163717" vertical-offset="0" max-vertical-offset="904">
+              <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -377,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tsa/app/views/welcome/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20685841" vertical-offset="0" max-vertical-offset="904">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.13163717" vertical-offset="0" max-vertical-offset="904">
+          <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
           <folding />
         </state>
       </provider>
