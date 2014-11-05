@@ -15,26 +15,26 @@
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 
   <style type="text/css">
-  .navbar-default { background-color: #00B012}
-.navbar-default .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus { background-color: #696969}
-.navbar-default .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus { background-color: #696969}
+.navbar-inverse { background-color: #00B012}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #696969}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #696969}
 .dropdown-menu { background-color: #696969}
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #428BCA}
-.navbar-default { background-image: none; }
+.navbar-inverse { background-image: none; }
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
-.navbar-default { border-color: #003302}
-.navbar-default .navbar-brand { color: #FFFFFF}
-.navbar-default .navbar-brand:hover { color: #FFFFFF}
-.navbar-default .navbar-nav>li>a { color: #FFFFFF}
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus { color: #FFFFFF}
-.navbar-default .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus { color: #FFFFFF}
-.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus { color: #FFFFFF}
+.navbar-inverse { border-color: #696969}
+.navbar-inverse .navbar-brand { color: #FFFFFF}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
 .dropdown-menu>li>a { color: #FFFFFF}
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
-.navbar-default .navbar-nav>.dropdown>a .caret { border-top-color: #FFFFFF}
-.navbar-default .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
-.navbar-default .navbar-nav>.dropdown>a .caret { border-bottom-color: #FFFFFF}
-.navbar-default .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
 </style>
 
 </head>
@@ -44,27 +44,43 @@
 
 <div class="container">
 
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/welcome/index">E-Waste</a>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="/dangers/index">Dangers</a></li>
-          <li><a href="/causes/index">Causes</a></li>
-          <li><a href="/prevention/index">Prevention</a></li>
-          <li><a href="/projects/index">Projects</a></li>
-          <li><a href="/impact/index">Impacts</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
+ <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="./" class="navbar-brand">E-Waste</a>
     </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="/dangers/index">Dangers</a>
+        </li>
+        <li>
+          <a href="/causes/index">Causes</a>
+        </li>
+			<li>
+	        <ul>
+	         
+	        </ul>
+	      </li>
+        <li>
+          <a href="/prevention/index">Prevention</a>
+        </li>
+        <li>
+          <a href="/projects/index">Projects</a>
+        </li>
+        <li>
+          <a href="/impact/index">Impact</a>
+        </li>
+      </ul>
+    </nav>
   </div>
+</header>
 
 <%= yield %>
 
