@@ -34,3 +34,6 @@
 .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
 .navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #FFFFFF}
 .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+ul.a {
+    list-style-type: circle;
+}
