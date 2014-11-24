@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resource :login
+
+  get 'login/index'
   get 'causes/index'
   get 'welcome/index'
   get 'dangers/index'
