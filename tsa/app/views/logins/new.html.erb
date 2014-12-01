@@ -1,9 +1,0 @@
-<center><h1>Login</h1>
-<%= form_for :login, :builder => MNE::TwitterBootstrapFormBuilder::FormBuilder, :html => { :class => "form-horizontal" } do |f| %>
-    <%= f.text_field :user %>
-    <%= f.text_field :password %>
-    <div class="form-actions">
-      <%= f.submit "login" %>
-    </div>
-<% end %>
-</center>
