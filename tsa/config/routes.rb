@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  get 'users/new'
-
+  get 'sign_up' => 'users/new', :as => 'signup'
+  resources :users
   get 'causes/index'
   get 'welcome/index'
   get 'dangers/index'
