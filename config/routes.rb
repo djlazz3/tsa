@@ -1,10 +1,7 @@
 Rails.application.routes.draw do
 
-<<<<<<< HEAD
-=======
   get 'sign_up' => 'users/new', :as => 'signup'
   resources :users
->>>>>>> 013f000b5b2a68db1f23a618e7a540c2673280d1
   get 'causes/index'
   get 'welcome/index'
   get 'dangers/index'
