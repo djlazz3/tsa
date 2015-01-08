@@ -2,6 +2,12 @@ source 'https://rubygems.org'
 
 #nifty generator for session based logins
 gem 'nifty-generators'
+
+group :production do
+  gem 'rails_12factor'
+  gem 'pg'
+end
+
 #password encryption
 #gem 'bcrypt-ruby', :require => 'bcrypt'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
