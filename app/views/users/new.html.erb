@@ -1,6 +1,6 @@
 <center><h1>Sign Up/Login</h1></center>
 <center>
-<%= form_for @user, :html => { :class => 'form-horizontal' } do |f| %>
+<%= form_for @user, :html => { :class => 'form-inline' } do |f| %>
     <% if @user.errors.any? %>
         <div class="error_messages">
           <h2>Form is invalid</h2>
@@ -24,7 +24,6 @@
       <%= f.password_field :password_confirmation, :class => 'form-control', :id => 'inputSuccess4'%>
     </p>
     <p> <%= f.submit :class => 'btn btn-success' %></p>
-    <p><%= f.submit %></p></center>
 
 <% end %>
 
