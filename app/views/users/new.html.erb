@@ -1,4 +1,4 @@
-<h1>Sign Up/Login</h1>
+<center><h1>Sign Up/Login</h1></center>
 
 <%= form_for @user do |f| %>
     <% if @user.errors.any? %>
@@ -8,7 +8,7 @@
             <% for message in @user.errors.full_messages %>
                 <li><%= message %></li>
             <% end %>
-          </ul>
+          <center></ul>
         </div>
     <% end %>
     <p>
@@ -23,7 +23,7 @@
       <%= f.label :password_confirmation %><br />
       <%= f.password_field :password_confirmation %>
     </p>
-    <p class="button"><%= f.submit %></p>
+    <p class="button"><%= f.submit %></p></center>
 <% end %>
 
 <br>
