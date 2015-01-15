@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 #nifty generator for session based logins
 gem 'nifty-generators'
 
+gem 'devise'
+
 group :production do
   gem 'rails_12factor'
   gem 'pg'

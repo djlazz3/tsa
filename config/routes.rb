@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
 
 
+  devise_for :users
   get 'sign_up' => 'users/new', :as => 'signup'
   resources :users
   get 'causes/index'
