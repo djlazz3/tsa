@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+
+
+  devise_for :users
   get 'sign_up' => 'users/new', :as => 'signup'
   resources :users
   get 'causes/index'
@@ -9,6 +12,7 @@ Rails.application.routes.draw do
   get 'prevention/index'
   get 'projects/index'
   get 'impact/index'
+  get 'coment/index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
