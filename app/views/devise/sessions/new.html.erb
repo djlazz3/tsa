@@ -1,17 +1,19 @@
 <h2>Sign in</h2>
 
-<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email, :autofocus => true %></div>
+<%= form_for(resource, :class => 'form-horizontal', :as => resource_name, :url => session_path(resource_name)) do |f| %>
+  <div class= "form-group">
+  <div><%= f.label :email, :class => 'control-label' %><br />
+  <%= f.email_field :email, :autofocus => true, :class => 'form-control', :id => 'inputSuccess4' %></div>
 
-  <div><%= f.label :password %><br />
-  <%= f.password_field :password %></div>
+  <div><%= f.label :password, :class => 'control-label'%><br />
+  <%= f.password_field :password, :class => 'form-control', :id => 'inputSuccess4'%></div>
 
   <% if devise_mapping.rememberable? -%>
-    <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+    <div><%= f.check_box :remember_me %> <%= f.label :remember_me, :class => 'control-label'%></div>
   <% end -%>
 
-  <div><%= f.submit "Sign in" %></div>
-<% end %>
+  <div><%= f.submit "Sign in", :class => 'btn btn-success %></div>
+	</div>
+  <% end %>
 
 <%= render "devise/shared/links" %>
