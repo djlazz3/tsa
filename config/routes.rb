@@ -3,8 +3,9 @@ Rails.application.routes.draw do
 
 
   devise_for :users
-  get 'sign_up' => 'users/new', :as => 'signup'
-  resources :users
+  devise_scope :user do
+      get '/users/sign_out' => 'devise/sessions#destroy'
+    end
   get 'causes/index'
   get 'welcome/index'
   get 'dangers/index'
